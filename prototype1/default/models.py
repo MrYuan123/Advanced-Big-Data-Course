@@ -19,3 +19,4 @@ class InfoJSON(BaseModel):
         if v < 0 or v > 200:
             raise ValueError('Wrong Age!')
         return v
+
